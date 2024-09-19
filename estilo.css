@@ -4,7 +4,7 @@
 }
 body {
     font-family: Verdana, Tahoma, sans-serif;
-    background-color: #2f2f30;
+    background-color: #646464;
 }
 header {
     background-color: #fff;
@@ -49,12 +49,41 @@ main h2 {
     height: 280px;
     margin: auto;
 } 
-.regiao {
+.opcao1 {
+    /*background-image: url('imagens/beco-do-batman-capa2019-01.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; */
+    background-color: #FFF;
     border: 2px solid #CCC;
     border-radius: 15px;
-    margin: 7px;
-    float: left;
+    margin: 40px;
+    float: center;
+    
+}
+.opcao2 {
+    border: 2px solid #CCC;
+    border-radius: 15px;
+    margin: 40px;
+    float: center;
     background-color: #FFF;
+
+}
+.opcao3 {
+    border: 2px solid #CCC;
+    border-radius: 15px;
+    margin: 40px;
+    float: center;
+    background-color: #FFF;
+
+}
+.opcao4 {
+    border: 2px solid #CCC;
+    border-radius: 15px;
+    margin: 40px;
+    float: center;
+    background-color: #FFF;
+
 }
 #conteudo-home img {
     border-radius: 15px 15px 0 0;
@@ -78,6 +107,7 @@ footer {
     font-style: italic;
     color: #2f2f30;
     padding: 20px 0;
+    margin-top: 800px;
 }
 
 /* Páginas internas */
@@ -117,3 +147,4 @@ footer {
     text-align: center;
     padding: 20px 0;
 }
+
