@@ -15,7 +15,7 @@ header {
     margin: auto;
 }
 header h1 {
-    color: #ad1414;
+    color: #CD141B;
     letter-spacing: 12px;
     line-height: 70px;
     width: 600px;
@@ -71,7 +71,7 @@ main h2 {
 }
 
 .opcao:hover img {
-    transform: scale(1.1); 
+    transform: scale(1); 
     border: 5px solid #CCC;
 }
 
