@@ -63,6 +63,30 @@ main h2 {
     overflow: hidden;
 
 } 
+#conteudo-turistico {
+    width: 1280px;
+    height: 280px;
+    margin: auto;
+} 
+
+.pontos {
+    background-color: #FFF;
+    border: 2px solid #CCC;
+    border-radius: 15px;
+    margin: 40px;
+    float: left;
+    height: 239px;
+    overflow: hidden;
+    width: 400px;
+} 
+.pontos img {
+    width: 110%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    transition: transform 0.3s ease, border 0.3s ease;
+}
+
  
 .opcao img {
     width: 110%;
@@ -142,3 +166,49 @@ footer {
     padding: 20px 0;
 }
 
+.conjunto {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+.modulo {
+    background-color: #fff;
+    border-radius: 10px;
+    margin: 35px;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.modulo img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.modulo h2 {
+    margin: 5px 0;
+    font-size: 1.5em;
+    color: #000000;
+}
+
+.botao{
+    background-color: #000;
+    border: none;
+    color: #fff;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: background-color 0.5s ease;
+}
+.botao:hover{
+    background-color: #CD141B;
+}
