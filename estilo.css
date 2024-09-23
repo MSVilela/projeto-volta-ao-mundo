@@ -46,6 +46,13 @@ main h2 {
     text-align: center;
     padding: 30px 0 40px;
 }
+main h3 {
+    color: #fff;
+    font-size: 32px;
+    letter-spacing: 2px;
+    text-align: center;
+    padding: 30px 0 40px;
+}
 
 
 #conteudo-home {
@@ -195,6 +202,7 @@ footer {
     color: #000000;
 }
 
+
 .botao{
     background-color: #000;
     border: none;
@@ -212,3 +220,4 @@ footer {
 .botao:hover{
     background-color: #CD141B;
 }
+
