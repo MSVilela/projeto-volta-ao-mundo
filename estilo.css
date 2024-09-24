@@ -190,6 +190,10 @@ footer {
     text-align: center;
 }
 
+.modulo p {
+    margin-top: 5px;
+}
+
 .modulo img {
     max-width: 100%;
     height: auto;
